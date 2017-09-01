@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	width: 1440px;
+	margin: 0 auto;
+}
+.header {
+	background: url(../images/background.jpg) 100% 100% no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	/*padding: 50px 0;*/
+	position: relative;
+	height: 100vh;
+}
+
+.header-title {
+	font-family: 'Exo', sans-serif;
+	font-size: 60px;
+	color: #282828;
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px 0;
+	margin-top: 100px;
+	}
+.play_button {
+	background: url(../images/play_button.png) no-repeat 0 0;
+	vertical-align: center;
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: auto;
+	opacity: 0.55;
+	cursor: pointer;
+
+}
+.try_now_button {
+	font-family: 'Exo', sans-serif;
+	display: block;
+	height: 50px;
+	width: 190px;
+	background-color: #ff6d6d;
+	vertical-align: center;
+	margin: 35px auto 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	border-style: none;
+	outline: none;
+	cursor: pointer;
+	color: white;
+
+}
+.try_now_button:hover {
+	background-color: #ff3d3d;
+}
+.info {
+	font-family: 'Exo', sans-serif;
+	color: black;
+	opacity: .6;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+.design {
+	background: url(../images/image-box.png) no-repeat right bottom;
+}
+.text-box {
+	padding: 150px 720px 150px 165px;
+}
+.title {
+	font-family: 'Exo-Medium', sans-serif;
+	color: #ff6d6d;
+	letter-spacing: 3px;
+	font-size: 16px;
+}
+.main-title {
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+p.text-box {
+	font-size: 16px;
+}
+.pen-cup {
+	background: url(../images/Pen_cup.png) no-repeat left top;
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+}
+.features {
+	display: inline-block;
+	margin: auto;
+	vertical-align: justify;
+	padding: 180px;
+}
+.headphones {
+	background: url(../images/Earphones.png) no-repeat right top;
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	right: 0;
+	/*padding-left: 500px;*/
+}
+.title-f {
+	font-family: 'Exo-Medium', sans-serif;
+	color: #ff6d6d;
+	letter-spacing: 3px;
+	font-size: 16px;
+	margin: auto;
+}
+.main-title-f {
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin: auto;
+}
+.f1 {
+	background: url(../images/picture.png) no-repeat left;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+.f2 {
+	background: url(../images/airplane.png) no-repeat;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	/*margin: auto;*/
+}
